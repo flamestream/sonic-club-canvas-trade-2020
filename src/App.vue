@@ -112,7 +112,7 @@ export default {
     },
     stageGroups: [
       ['4sonicfan', 'Clever The Wolf'],
-      ['ArmorGontier', 'ArmorGontier'],
+      ['ArmorGontier', 'Flamestream-2'],
       ['AussieHobbyYeah', 'NOOB'],
       ['Clever The Wolf', 'Nini Rosé-2'],
       ['Flamestream', 'Mllermanda'],
@@ -122,7 +122,7 @@ export default {
       ['Goodie_Noodles (Nichan)-2', '🌌💮𝓢𝐏ε𝓵ｌ 🔮ғ𝕋𝒽𝐞𝓓έ𝐚ｄ🌸🌆🌇🌺-2'],
       ['Mllermanda', 'Flamestream'],
       ['Nini Rosé', 'AussieHobbyYeah'],
-      ['Nini Rosé-2', 'Flamestream-2'],
+      ['Nini Rosé-2', 'ArmorGontier'],
       ['NOOB', 'TylerBucket'],
       ['Rotten', 'Nini Rosé'],
       ['TylerBucket', 'Goodie_Noodles (Nichan)'],
@@ -142,7 +142,7 @@ export default {
   methods: {
     previewPathFromStage(stageIndex, stageName) {
       if (!stageName) return;
-      return `/stage-${stageIndex}/${stageName}.png`
+      return `stage-${stageIndex}/${stageName}.png`
     },
     downloadPathFromStage(stageIndex, stageName) {
       if (stageIndex > 1) return;
